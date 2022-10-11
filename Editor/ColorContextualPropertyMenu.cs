@@ -21,7 +21,7 @@ namespace Kogane.Internal
             var rgb     = ColorUtility.ToHtmlStringRGB( color );
             var rgba    = ColorUtility.ToHtmlStringRGBA( color );
 
-            AddItem( menu, $"new Color( {color.r}, {color.g}, {color.b}, {color.a} )" );
+            AddItem( menu, $"new Color( {color.r}f, {color.g}f, {color.b}f, {color.a}f )" );
             AddItem( menu, $"new Color32( {color32.r}, {color32.g}, {color32.b}, {color32.a} )" );
             AddItem( menu, $"#{rgb}" );
             AddItem( menu, $"#{rgba}" );
